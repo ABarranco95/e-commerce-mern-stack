@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <title>Amazonia</title>
-  </head>
-  <body>
+
+
+function App() {
+  return (
     <div class="grid-container">
       <header class="row">
         <div>
@@ -25,7 +16,6 @@
         <div class="row center">
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p1.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -54,7 +44,6 @@
           </div>
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p2.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -83,7 +72,6 @@
           </div>
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p3.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -112,7 +100,6 @@
           </div>
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p4.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -141,7 +128,6 @@
           </div>
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p5.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -170,7 +156,6 @@
           </div>
           <div class="card">
             <a href="product.html">
-              <!-- image size: 680px by 830px -->
               <img class="medium" src="./images/p6.jpg" alt="product" />
             </a>
             <div class="card-body">
@@ -201,5 +186,7 @@
       </main>
       <footer class="row center">All rights reserved</footer>
     </div>
-  </body>
-</html>
+  );
+}
+
+export default App;
